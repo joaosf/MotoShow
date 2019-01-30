@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_input_black_24dp"
+            android:padding="20dp"
+            android:text="Efetuar Pedido"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:id="@+id/efetuarPedido"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_search_black_24dp"
+            android:padding="20dp"
+            android:text="Consultar Pedidos"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:id="@+id/consultarPedido"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_build_black_24dp"
+            android:padding="20dp"
+            android:text="Cadastrar Produto"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:id="@+id/cadProduto"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_accessibility_black_24dp"
+            android:padding="20dp"
+            android:text="Cadastrar Serviço"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:id="@+id/cadServico"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_search_black_24dp"
+            android:padding="20dp"
+            android:text="Consultar Produto"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:id="@+id/conProduto"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_search_black_24dp"
+            android:padding="20dp"
+            android:text="Consultar Serviço"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:id="@+id/conServico"/>
+    </LinearLayout>
+
+</LinearLayout>

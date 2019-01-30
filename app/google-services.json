@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "316876802307",
+    "firebase_url": "https://motoshow-d8464.firebaseio.com",
+    "project_id": "motoshow-d8464",
+    "storage_bucket": "motoshow-d8464.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316876802307:android:04c8c457b4572766",
+        "android_client_info": {
+          "package_name": "com.show.moto.motoshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316876802307-4ineto6o7u4bnq7c6jceqc4t3avfa70h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFz9Mt_6BRos4y1EfVZi5JoReSTbIp4bA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
