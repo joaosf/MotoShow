@@ -13,7 +13,7 @@ import com.show.moto.motoshow.Modelos.Servico;
 public final class Funcoes {
     public static String tabelaServico = "servico";
 
-
+    //Adiciona item firebase
     public static void addItemFirebase(String nomeTabela, final Servico object) {
         DatabaseReference dados = Base.getTableReference(nomeTabela,false);
         dados.push().setValue(object);
