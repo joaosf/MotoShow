@@ -32,10 +32,21 @@ public class TelaPrincipal extends AppCompatActivity {
                 abrirCadServico();
             }
         });
+        btnCadProduto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                abrirCadProduto();
+            }
+        });
     }
 
     private void abrirCadServico() {
         Intent tela = new Intent(this, CadServico.class);
+        startActivity(tela);
+    }
+
+    private void abrirCadProduto() {
+        Intent tela = new Intent(this, CadProduto.class);
         startActivity(tela);
     }
 }
