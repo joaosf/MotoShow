@@ -20,32 +20,46 @@ public class TelaPrincipal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_principal);
         btnEfetuarPedido = findViewById(R.id.efetuarPedido);
-        btnCadProduto = findViewById(R.id.cadProduto);
-        btnCadServico = findViewById(R.id.cadServico);
-        btnConProduto = findViewById(R.id.conProduto);
-        btnConServico = findViewById(R.id.conServico);
         btnConsultarPedido = findViewById(R.id.consultarPedido);
 
-        btnCadServico.setOnClickListener(new View.OnClickListener() {
+        btnCadProduto = findViewById(R.id.cadProduto);
+
+        btnConProduto = findViewById(R.id.conProduto);
+
+        btnConProduto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                abrirCadServico();
-            }
+                abrirConProduto();            }
         });
+
         btnCadProduto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 abrirCadProduto();
             }
         });
+
+        btnEfetuarPedido.setOnClickListener(new View.OnClickListener() {
+           @Override
+          public void onClick(View view) {
+             abrirCadPedido();
+         }
+       });
+
     }
 
-    private void abrirCadServico() {
-        Intent tela = new Intent(this, CadServico.class);
+    private void abrirCadPedido() {
+        Intent tela = new Intent(this, EfetuarPedido.class);
         startActivity(tela);
     }
 
+
     private void abrirCadProduto() {
+        Intent tela = new Intent(this, CadProduto.class);
+        startActivity(tela);
+    }
+
+    private void abrirConProduto() {
         Intent tela = new Intent(this, CadProduto.class);
         startActivity(tela);
     }

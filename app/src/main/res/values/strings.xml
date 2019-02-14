@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MotoShow</string>
+    <string name="title_activity_detalhe_produto">detalhe_produto</string>
 </resources>

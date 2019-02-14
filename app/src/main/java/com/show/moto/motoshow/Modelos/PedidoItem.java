@@ -1,37 +1,19 @@
 package com.show.moto.motoshow.Modelos;
 
 public class PedidoItem {
-    String pedido;
-    String produto;
-    String servico;
+    Produto produto;
     Double valor;
     Double quantidade;
 
     public PedidoItem() {
     }
 
-    public String getPedido() {
-        return pedido;
-    }
-
-    public void setPedido(String pedido) {
-        this.pedido = pedido;
-    }
-
-    public String getProduto() {
+    public Produto getProduto() {
         return produto;
     }
 
-    public void setProduto(String produto) {
+    public void setProduto(Produto produto) {
         this.produto = produto;
-    }
-
-    public String getServico() {
-        return servico;
-    }
-
-    public void setServico(String servico) {
-        this.servico = servico;
     }
 
     public Double getValor() {
@@ -48,13 +30,5 @@ public class PedidoItem {
 
     public void setQuantidade(Double quantidade) {
         this.quantidade = quantidade;
-    }
-
-    public boolean isProduto() {
-        return this.produto != null;
-    }
-
-    public boolean isServico() {
-        return this.servico != null;
     }
 }

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CadServico"></activity>
+        <activity android:name=".CadProduto" />
+        <activity android:name=".EfetuarPedido" />
     </application>
 
 </manifest>
